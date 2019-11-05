@@ -11,6 +11,8 @@ El uso de la librería es muy sencillo el cual consiste de los siguientes pasos:
 5. Crear un objeto BufferedImage del mismo exacto tamaño que el código QR.
 6.Usar ese objeto BufferedImage ya sea para mostrar el Código QR en pantalla, imprimirlo o guardarlo.
 
-Demo: https://youtu.be/7pfs6h6lHfM
 <img src="https://github.com/marto-nieto-g16/Lector-Codigo-QR-ZXing/blob/master1/QR%20En%20Java.png" />
+Demo: https://youtu.be/7pfs6h6lHfM
+
+<img src="https://github.com/marto-nieto-g16/Lector-Codigo-QR-ZXing/blob/master1/QR%20Naruto.png" />
 
