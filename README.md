@@ -1,15 +1,18 @@
+Lector-Codigo-QR-ZXing
+Este proyecto es un ejemplo de cómo utilizar la librería ZXing en Java para leer códigos QR. ZXing es una librería desarrollada por Google que nos permite generar y leer códigos QR de manera sencilla.
 
-La librería ZXing, desarrollada por Google, nos permite tomar una cadena de texto, codificarla como una matriz de datos la cual luego se puede convertir a un código QR con el cual podemos generar una imagen en el formato que necesitemos.
-El uso de la librería es muy sencillo el cual consiste de los siguientes pasos:
-1. Crear un objeto QRCodeWriter.
-2. Crear una cadena de texto con los datos que deseamos poner en el QR.
-3. Tener a la mano el ancho y altura del código QR que deseamos crear
-4. Usar el método encode del objeto QRCodeWriter para crear la matriz de datos del QR, se le pasan de argumentos los datos, el ancho y altura que deseamos ver en el QR
-5. Crear un objeto BufferedImage del mismo exacto tamaño que el código QR.
-6.Usar ese objeto BufferedImage ya sea para mostrar el Código QR en pantalla, imprimirlo o guardarlo.
+Para utilizar esta aplicación, se necesita el entorno de desarrollo integrado (IDE) NetBeans y la librería ZXing.
+
+Configuración
+Para utilizar la librería ZXing en este proyecto, debemos agregarla a nuestro proyecto. Podemos hacer esto descargando la librería de su sitio web oficial y agregándola como dependencia en el archivo pom.xml de nuestro proyecto.
+
+Uso
+Para utilizar esta aplicación, simplemente debemos ejecutarla en NetBeans. Al hacerlo, se abrirá una ventana en la que podemos seleccionar una imagen que contenga un código QR. La aplicación se encargará de leer el código QR y mostrar su contenido en la pantalla.
 
 <img src="https://github.com/marto-nieto-g16/Lector-Codigo-QR-ZXing/blob/master1/QR%20En%20Java.png" />
-Demo: https://youtu.be/lAaoVfG_EhM
 
 <img src="https://github.com/marto-nieto-g16/Lector-Codigo-QR-ZXing/blob/master1/QR%20Naruto%20(1).png" />
+
+Créditos
+Este proyecto utiliza la librería ZXing, desarrollada por Google.
 
